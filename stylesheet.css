@@ -1,0 +1,116 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(18, 179, 211, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+}
+.left{
+    width: 50px;
+    height: 60px;
+    float: left;
+}
+.logo{
+    margin: 0px 10px 5px 10px;    
+}
+.center {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: white;
+    font-size: 50PX;
+    font-weight: bolder;
+    color: rgb(48, 37, 37);
+    float:left;
+    margin: 0px 5px 5px 200px;   
+}
+
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color:rgba(221, 238, 241, 0.7);
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/04/12/3701723007.jpg);
+    background-size: cover;
+    color: rgb(32, 9, 9);
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+
+.tableauPlaceholder {
+    margin : 75px auto;
+    text-align: center;
+}
+.tableauPlaceholder h1 {
+    margin : 0px auto;
+    text-shadow: white;
+    color:rgb(32, 9, 9);
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.menu-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .menu {
+    float: left;
+    width: 25%;
+  }
+  
+  .menu-icon {
+    position: relative;
+  }
+  
+  .menu-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .btn-menu:hover {
+    opacity: 1;
+  }
